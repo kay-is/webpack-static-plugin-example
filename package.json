@@ -1,0 +1,18 @@
+{
+  "name": "webpack-static-plugin",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "setup": "npm i && npm run build && npm start",
+    "build": "webpack",
+    "start": "http-server -c-1 ./build"
+  },
+  "author": "Kay Plößer",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "http-server": "^0.9.0",
+    "static-site-generator-webpack-plugin": "^3.1.0",
+    "webpack": "^2.2.1"
+  }
+}
